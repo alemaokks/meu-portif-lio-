@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FiveDev's personal developer portfolio. Explore projects, skills, and contact information.">
+  <meta name="theme-color" content="#0b1020">
+  <title>FiveDev | Developer Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="FiveDev home"><span class="brand-mark">F</span><span>FiveDev<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR LEARNING OPPORTUNITIES</p>
+        <h1>Building things<br>for the <span class="gradient-text">web.</span></h1>
+        <p class="hero-description">Hello! I'm <strong>FiveDev</strong>, a beginner developer focused on learning, building projects, and turning ideas into useful digital experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="button button-quiet" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta"><span>BASED IN BRAZIL</span><span class="meta-line"></span><span>LEARNING BY BUILDING</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code editor illustration">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="code-window">
+          <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>hello-world.js</span><span class="window-menu">•••</span></div>
+          <div class="code-content">
+            <div><span class="line-number">01</span><span class="code-purple">const</span> developer = {</div>
+            <div><span class="line-number">02</span>&nbsp;&nbsp;name: <span class="code-green">'FiveDev'</span>,</div>
+            <div><span class="line-number">03</span>&nbsp;&nbsp;focus: <span class="code-green">'Web development'</span>,</div>
+            <div><span class="line-number">04</span>&nbsp;&nbsp;learning: <span class="code-green">'Every day'</span>,</div>
+            <div><span class="line-number">05</span>&nbsp;&nbsp;building: <span class="code-orange">true</span></div>
+            <div><span class="line-number">06</span>};</div>
+            <div class="code-spacer"></div>
+            <div><span class="line-number">07</span><span class="code-purple">while</span> (curious) {</div>
+            <div><span class="line-number">08</span>&nbsp;&nbsp;learn();</div>
+            <div><span class="line-number">09</span>&nbsp;&nbsp;build();</div>
+            <div><span class="line-number">10</span>}</div>
+            <div class="cursor-line"><span class="line-number">11</span><span class="typing-cursor"></span></div>
+          </div>
+          <div class="window-footer"><span><span class="footer-dot"></span> JavaScript</span><span>UTF-8&nbsp;&nbsp; LF</span></div>
+        </div>
+        <div class="floating-tag tag-html">HTML5</div>
+        <div class="floating-tag tag-css">CSS3</div>
+        <div class="floating-tag tag-js">JS</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Technologies">
+      <div class="ticker-track"><span>HTML</span><b>✳</b><span>CSS</span><b>✳</b><span>JAVASCRIPT</span><b>✳</b><span>PYTHON</span><b>✳</b><span>FLASK</span><b>✳</b><span>GIT & GITHUB</span><b>✳</b><span>HTML</span><b>✳</b><span>CSS</span><b>✳</b><span>JAVASCRIPT</span><b>✳</b><span>PYTHON</span><b>✳</b><span>FLASK</span><b>✳</b><span>GIT & GITHUB</span><b>✳</b></div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>A little bit <span class="gradient-text">about me.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-lead"><p class="large-copy">I'm at the beginning of my development journey, and I'm excited about what I can create with code.</p></div>
+        <div class="about-detail"><p>I enjoy exploring how websites and applications work, experimenting with new ideas, and improving through practice. My current focus is front-end fundamentals and Python.</p><p>This portfolio is a space to document my progress and share projects as I build them.</p><div class="about-note"><span class="note-icon">✳</span><span>Curiosity first. Consistency always.</span></div></div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">02 / TOOLKIT</p><h2>Tools I'm <span class="gradient-text">learning.</span></h2><p class="section-subtitle">My current learning stack. I add to it as I gain experience.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon html-icon">5</div><div><h3>HTML</h3><p>Page structure and semantic markup</p></div><span class="skill-level">LEARNING</span></article>
+          <article class="skill-card"><div class="skill-icon css-icon">✳</div><div><h3>CSS</h3><p>Layouts, styling and responsive design</p></div><span class="skill-level">LEARNING</span></article>
+          <article class="skill-card"><div class="skill-icon js-icon">JS</div><div><h3>JavaScript</h3><p>Interactivity and browser fundamentals</p></div><span class="skill-level">LEARNING</span></article>
+          <article class="skill-card"><div class="skill-icon py-icon">Py</div><div><h3>Python</h3><p>Programming logic and small applications</p></div><span class="skill-level">LEARNING</span></article>
+          <article class="skill-card"><div class="skill-icon flask-icon">⌘</div><div><h3>Flask</h3><p>Introduction to web apps with Python</p></div><span class="skill-level">EXPLORING</span></article>
+          <article class="skill-card"><div class="skill-icon git-icon">⑂</div><div><h3>Git & GitHub</h3><p>Version control and project publishing</p></div><span class="skill-level">LEARNING</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading projects-heading"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Things I've <span class="gradient-text">built.</span></h2></div><span class="project-count">PROJECTS / 03</span></div>
+      <div class="projects-grid">
+        <article class="project-card project-featured"><div class="project-preview preview-store"><div class="preview-browser"><span></span><span></span><span></span></div><div class="store-preview-content"><small>NEW COLLECTION / 2026</small><strong>YOUR<br>STYLE.</strong><div class="preview-pill">EXPLORE THE STORE ↗</div></div></div><div class="project-info"><div><p class="project-type">WEB DESIGN · FRONT-END</p><h3>Modern Store</h3><p>A responsive storefront concept focused on product presentation and clean navigation.</p></div><a class="project-link" href="https://github.com/alemaokks" target="_blank" rel="noopener noreferrer" aria-label="View Modern Store project on GitHub">↗</a></div><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="project-card"><div class="project-preview preview-python"><div class="terminal-card"><div class="terminal-top"><i></i><i></i><i></i><span>python — terminal</span></div><p><b>&gt;</b> python app.py</p><p class="terminal-muted">Starting application...</p><p class="terminal-success">✓ Ready to use</p><div class="terminal-cursor">_</div></div></div><div class="project-info"><div><p class="project-type">PROGRAMMING</p><h3>Python Projects</h3><p>Small applications created to practice logic, functions, and problem-solving.</p></div><a class="project-link" href="https://github.com/alemaokks" target="_blank" rel="noopener noreferrer" aria-label="View Python projects on GitHub">↗</a></div><div class="project-tags"><span>Python</span><span>VS Code</span></div></article>
+        <article class="project-card"><div class="project-preview preview-web"><div class="web-preview"><div class="web-preview-nav"><b>F.</b><span>HOME&nbsp;&nbsp; ABOUT&nbsp;&nbsp; WORK</span></div><div class="web-preview-title">Ideas into<br><em>experiences.</em></div><div class="web-preview-shape"></div></div></div><div class="project-info"><div><p class="project-type">PERSONAL WEBSITE</p><h3>Portfolio Website</h3><p>This portfolio: a responsive website built to present my learning journey and projects.</p></div><a class="project-link" href="https://github.com/alemaokks" target="_blank" rel="noopener noreferrer" aria-label="View portfolio source on GitHub">↗</a></div><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+      </div>
+      <p class="projects-disclaimer">Project descriptions are starter examples. Replace each card and link with a project you have actually completed before presenting it as finished work.</p>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="container contact-inner"><p class="eyebrow">04 / CONTACT</p><h2>Have an idea?<br><span class="gradient-text">Let's connect.</span></h2><p>I'm open to learning opportunities, feedback, and conversations about technology.</p><div class="contact-actions"><a class="button button-primary" href="mailto:kevin.alemao.melo@gmail.com">Send me an email <span aria-hidden="true">↗</span></a><a class="button button-outline" href="https://github.com/alemaokks" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a></div><p class="email-hint">Contact me at kevin.alemao.melo@gmail.com.</p></div></section>
+  </main>
+
+  <footer class="footer container"><a class="brand" href="#home"><span class="brand-mark">F</span><span>FiveDev<span class="brand-dot">.</span></span></a><p>Designed and built with curiosity. © <span id="current-year"></span> FiveDev.</p><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+</body>
+</html>
